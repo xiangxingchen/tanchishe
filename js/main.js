@@ -78,7 +78,7 @@ window.onload=function(){
 				food.showFood();
 			}
 			if (xSnake<0||xSnake>39||ySnake<0||ySnake>19) {
-				alert("game over");
+				alert("game over!");
 				clearInterval(timer);
 				return false;
 			}
